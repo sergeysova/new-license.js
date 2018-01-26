@@ -1,0 +1,41 @@
+{
+  "name": "new-license",
+  "version": "0.1.0",
+  "description": "Create license file for your project",
+  "main": "lib/main.js",
+  "bin": {
+    "new-license": "./bin/new-license.js",
+    "license": "./bin/new-license.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeysova/new-license.git"
+  },
+  "keywords": [
+    "license",
+    "spdx",
+    "license",
+    "cli",
+    "generator",
+    "npm",
+    "package"
+  ],
+  "author": "Sergey Sova <mail@sergeysova.com> (https://sergeysova.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeysova/new-license/issues"
+  },
+  "homepage": "https://github.com/sergeysova/new-license#readme",
+  "devDependencies": {
+    "@atomix/eslint-config": "^6.1.1",
+    "eslint": "^4.16.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "inquirer": "^5.0.1",
+    "license.js": "^3.1.2"
+  }
+}
