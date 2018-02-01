@@ -66,4 +66,4 @@ async function run() {
   }
 }
 
-run()
+run().catch((error) => console.log(chalk.red(error)))
