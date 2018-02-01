@@ -8,7 +8,12 @@
     "license": "./bin/new-license.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:lint": "eslint .",
+    "test": "npm run test:lint",
+    "prepublish": "npm test",
+    "precommit": "npm run test:lint",
+    "prepush": "npm test",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "repository": {
     "type": "git",
@@ -31,7 +36,10 @@
   "homepage": "https://github.com/sergeysova/new-license#readme",
   "devDependencies": {
     "@atomix/eslint-config": "^6.1.1",
-    "eslint": "^4.16.0"
+    "@commitlint/cli": "^6.0.5",
+    "cz-customizable": "^5.2.0",
+    "eslint": "^4.16.0",
+    "husky": "^0.14.3"
   },
   "dependencies": {
     "chalk": "^2.3.0",
@@ -39,5 +47,10 @@
     "inquirer": "^5.0.1",
     "license.js": "^3.1.2",
     "npm": "^5.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
   }
 }
