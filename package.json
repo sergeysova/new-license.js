@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergeysova/new-license.git"
+    "url": "git+https://github.com/sergeysova/new-license.js.git"
   },
   "keywords": [
     "license",
@@ -31,9 +31,9 @@
   "author": "Sergey Sova <mail@sergeysova.com> (https://sergeysova.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sergeysova/new-license/issues"
+    "url": "https://github.com/sergeysova/new-license.js/issues"
   },
-  "homepage": "https://github.com/sergeysova/new-license#readme",
+  "homepage": "https://github.com/sergeysova/new-license.js#readme",
   "devDependencies": {
     "@atomix/eslint-config": "^6.1.1",
     "@commitlint/cli": "^6.0.5",
