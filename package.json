@@ -1,7 +1,7 @@
 {
   "name": "new-license",
   "version": "0.1.0",
-  "description": "Create license file for your project",
+  "description": "Generate LICENSE file for your project",
   "main": "lib/main.js",
   "bin": {
     "new-license": "./bin/new-license.js",
