@@ -1,6 +1,6 @@
 {
   "name": "new-license",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Generate LICENSE file for your project",
   "main": "lib/main.js",
   "bin": {
